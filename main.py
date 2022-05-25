@@ -9,4 +9,4 @@ vett.addItem(Item("Pallet",80,120,80,100))
 vett.addItem(Item("Cassapanca",100,50,200,100))
 vett.printListaItem()
 
-print (vett.getCurrentPeso())
+print (vett.currentPeso)

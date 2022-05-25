@@ -12,14 +12,6 @@ class Item:
     self.lunghezza = lunghezza
     self.peso = peso
     
-  def setPeso(self, peso):
-    self.peso = peso
-    
-  def setDimensioni(self, altezza, larghezza, lunghezza):
-    self.altezza = altezza
-    self.larghezza = larghezza
-    self.lunghezza = lunghezza
-    
   def getVolume(self):
     return self.altezza*self.larghezza*self.lunghezza
     
@@ -44,15 +36,11 @@ class Vettore:
       self.currentPeso = self.currentPeso + item.peso
     else:  
       print("Peso massimo over")
-
-  def getCurrentPeso(self):
-    return self.currentPeso
   
   def printListaItem(self):
     print("Lista degli oggetti nel vettore")
     for elemento in self.listaItem:
       print(elemento)   
-    print("ciao")
 
   def __str__(self):
-    return "Vettore con volume : "+ str(self.maxVolume) + " e  peso : "+ str(self.maxPeso)
+    return "Capacità vettore: "+ str(self.maxVolume) + " cm3 "+ str(self.maxPeso)+"kg"
