@@ -52,7 +52,7 @@ class Vettore:
     print("lista degli oggetti")
     for elemento in self.listaItem:
       print(elemento)   
-      print("ciao")
+    print("ciao")
 
   def __str__(self):
     return "Volume restante : "+ str(self.maxVolume) + " Peso restante : "+ str(self.maxPeso)
