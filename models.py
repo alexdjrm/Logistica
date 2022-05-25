@@ -49,10 +49,10 @@ class Vettore:
     return self.currentPeso
   
   def printListaItem(self):
-    print("lista degli oggetti")
+    print("Lista degli oggetti nel vettore")
     for elemento in self.listaItem:
       print(elemento)   
     print("ciao")
 
   def __str__(self):
-    return "Volume restante : "+ str(self.maxVolume) + " Peso restante : "+ str(self.maxPeso)
+    return "Vettore con volume : "+ str(self.maxVolume) + " e  peso : "+ str(self.maxPeso)

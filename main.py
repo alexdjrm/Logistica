@@ -1,7 +1,5 @@
 from models import *
 
-
-
 vett = Vettore(30000,500)
 
 print(vett)
